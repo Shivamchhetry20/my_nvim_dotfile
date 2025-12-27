@@ -454,7 +454,7 @@ require('lazy').setup({
       -- Custom Keymaps
       vim.keymap.set(
         "n",
-        -- "<leader>/",
+         "<leader>/",
         "<cmd>lua require('Comment.api').toggle.linewise.current()<CR>",
         { noremap = true, silent = true }
       )
